@@ -1,0 +1,37 @@
+name: soozen
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^2.0.15
+  hive: ^2.0.0
+  hive_flutter: ^1.0.0
+  intl: ^0.17.0
+  audioplayers: ^6.1.0
+  vibration: ^2.0.1
+  cupertino_icons: ^1.0.8
+  wakelock_plus: ^1.2.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/sounds/beep.mp3
+
+  fonts:
+    - family: FunnelDisplay
+      fonts:
+        - asset: assets/fonts/FunnelDisplay-Regular.ttf
